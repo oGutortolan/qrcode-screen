@@ -1,0 +1,1 @@
+**Qrcode generation test according to what is received in the url params**
