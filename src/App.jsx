@@ -11,7 +11,7 @@ function App() {
       </div> */}
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/:qrCode' element={<QrCode />} />
+        <Route path='/:qrCode/:code' element={<QrCode />} />
         {/* <Route path='*' component={Error} /> */}
       </Routes>
     </Router>
